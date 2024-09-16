@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+}
+nav{
+    background-color: crimson;
+    padding: 25px;
+    display: flex;
+    justify-content:space-between ;
+}
+ul{
+    display: flex;
+    gap: 25px;
+}
+li{
+    list-style-type: none;
+}
+li a{
+    color: aliceblue;
+    text-decoration: solid;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+header{
+    height: 600px;
+    background-image:url(\task.jpg);
+   background-size: cover;
+}
+header h1{
+    color: aliceblue;
+    padding: 25px 30px;
+}
+section{
+    text-align: center;
+    padding: 70PX 0px;
+    
+}
+section h1{
+    font-size: 30px;
+    
+}
+div.cont{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 0px;
+    gap: 20px;
+    justify-content: space-around;
+    
+}
+div img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+div.item{
+border: 2px solid gray;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+padding: 15px;
+
+}
+div p{
+    width: 270px;
+   
+}
+button{
+    color: aliceblue;
+    background-color: crimson;
+    border-radius: 5px ;
+    padding: 10px 15px ;
+    border: none;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: aliceblue;
+}
